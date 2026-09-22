@@ -1,4 +1,4 @@
-const { signup, login } = require('./auth');
+import { signup, login } from './auth';
 
 test('Successful signup', () => {
     const result = signup('Achinta', 'achinta@gmail.com', '1234');

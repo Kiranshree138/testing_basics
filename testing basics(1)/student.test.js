@@ -1,9 +1,9 @@
-const {
+import {
   calculateAverage,
   getGrade,
   analyzeStudent,
   findTopStudent,
-} = require("./Studentservice");
+} from "./Studentservice";
 
 describe("calculateAverage", () => {
   test("should calculate average of valid marks", () => {
