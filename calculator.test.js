@@ -4,7 +4,7 @@
 //describe() - Test plan
 // it() / test() - test case
 //expect() - assertion
-import {add} from "./calculator";
+const {add} = require("./calculator");
 describe("Add feature of the calculator",()=>{
     test("Add 2 positive numbers",()=>{
         expect(add(5,10)).toBe(15);
